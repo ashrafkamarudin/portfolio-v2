@@ -8,7 +8,7 @@
         </div>
         <div>
             <span class="sr-only">Title</span>
-            <div class="group-hover:text-light-blue-200 text-base font-medium sm:mb-4 lg:mb-0 xl:mb-4 text-3xl mt-5">
+            <div class="text-base font-medium sm:mb-4 lg:mb-0 xl:mb-4 text-3xl mt-5">
                 <?php the_title(); ?>
             </div>
         </div>

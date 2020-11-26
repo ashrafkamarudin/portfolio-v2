@@ -1,4 +1,4 @@
-<div class="bg-white">
+<div class="py-1">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
             <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
