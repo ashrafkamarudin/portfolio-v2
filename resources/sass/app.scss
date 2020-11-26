@@ -6,6 +6,10 @@ body {
     @apply text-sm;
 }
 
+.blog-content p {
+    padding-bottom: 2em;
+}
+
 badge, .badge {
     @apply rounded-md;
     @apply items-center;
@@ -20,5 +24,9 @@ badge, .badge {
     &.badge-danger {
         @apply bg-pink-100;
         @apply text-pink-600;
+    }
+
+    .blog-card {
+        @apply badge-danger;
     }
 }

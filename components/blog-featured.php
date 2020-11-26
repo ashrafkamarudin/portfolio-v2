@@ -24,7 +24,7 @@
             </badge>
         </div>
         <div class="mt-6">
-            <button class="bg-transparent hover:bg-blue text-indigo-900 font-semibold py-3 px-5 border border-indigo-300 transition duration-500 transform hover:-translate-y-0.5 rounded-full">
+            <button class="bg-transparent text-indigo-900 font-semibold py-3 px-5 border border-indigo-300 transition duration-500 transform hover:-translate-y-0.5 rounded-full focus:outline-none">
                 Continue Reading
             </button>
         </div>
