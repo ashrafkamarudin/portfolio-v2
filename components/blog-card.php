@@ -1,4 +1,4 @@
-<div class="grid sm:block lg:grid xl:block grid-cols-2 grid-rows-2 items-center p-6 pt-2 hover:shadow-lg group block p-4 border border-gray-200 transition duration-500 transform hover:-translate-y-0.5 cursor-pointer" onClick="window.location='<?php the_permalink(); ?>';">
+<div class="grid sm:block lg:grid xl:block grid-cols-2 grid-rows-2 items-center p-6 pt-2 hover:shadow-lg group block p-4 border border-gray-200 transition duration-500 transform hover:-translate-y-0.5 cursor-pointer bg-white" onClick="window.location='<?php the_permalink(); ?>';">
     <div>
         <span class="sr-only">Date</span>
         <div class="group-hover:text-light-blue-200 leading-6 font-medium text-base text-gray-600">
