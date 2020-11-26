@@ -31170,6 +31170,8 @@ video {
 body {
   font-size: 0.875rem;
   line-height: 1.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 
 .blog-content p {
