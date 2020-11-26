@@ -15,7 +15,7 @@
 </div>
 
 <div class="py-15 p-20 flex item-center">
-    <div class="text-gray-600 font-light text-lg leading-loose text-left blog-content">
+    <div class="text-gray-600 font-light text-lg leading-loose text-left blog-content overflow-auto">
         <?php the_content(); ?>
     </div>
 </div>
