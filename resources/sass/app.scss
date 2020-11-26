@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+    @apply text-sm;
+}
+
+badge, .badge {
+    @apply rounded-md;
+    @apply items-center;
+    @apply px-2;
+    @apply py-1;
+    
+    &.badge-default {
+        @apply bg-gray-100;
+        @apply text-gray-600;
+    }
+
+    &.badge-danger {
+        @apply bg-pink-100;
+        @apply text-pink-600;
+    }
+}
