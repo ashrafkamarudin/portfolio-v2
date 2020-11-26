@@ -25,25 +25,17 @@
 					<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></button>
 				</div>
 				<div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-					<a class="whitespace-nowrap font-medium text-gray-500 hover:text-gray-900" href="#">Home</a> <a class="ml-8 whitespace-nowrap font-medium text-gray-500 hover:text-gray-900" href="#">Latest Work</a> <a class="ml-8 whitespace-nowrap font-medium text-gray-500 hover:text-gray-900" href="#">My Story</a> <!-- <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-            My Story
-          </a> -->
+
+                    <?php if ( has_nav_menu('navbar-menu') ) : foreach (get_menu_items('navbar-menu') as $item) { ?>
+                        <a class="whitespace-nowrap font-medium hover:text-gray-900 ml-8 <?php echo is_menu_active($item) ? 'text-pink-500' : 'text-gray-500'; ?>" href="<?php echo $item->url ?>"><?php echo $item->post_title ?></a>
+                    <?php } endif; ?>
 				</div>
 			</div>
         </div>
         
 		<main class="mx-auto max-w-7xl px-4 sm:mt-8 sm:px-6 md:mt-12 lg:mt-16 lg:px-8 xl:mt-20">
             
-            <?php 
-                function wpb_custom_new_menu() {
-                    register_nav_menus(
-                    array(
-                        'my-custom-menu' => __( 'My Custom Menu' ),
-                        'extra-menu' => __( 'Extra Menu' )
-                    )
-                    );
-                }
-              add_action( 'init', 'wpb_custom_new_menu' );
+            <?php
 
                 if ( is_front_page() && is_home() ) {
                     get_template_part( 'blogs/index' );
