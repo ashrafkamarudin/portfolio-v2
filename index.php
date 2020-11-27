@@ -120,9 +120,20 @@
 
     </section>
 
-    <section class="bg-indigo-500">
-        <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto">
-        
+    <section class="bg-indigo-100 h-auto lg:h-screen py-24">
+        <div class="max-w-6xl px-5 mx-auto md:px-none">
+            <div class="text-left mb-20">
+                <h2 class="text-base text-green-700 font-semibold tracking-wide uppercase">Contact Me</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Let's Get in Touch
+                </p>
+                <div class="flex mt-6 justify-start">
+                    <div class="w-16 h-1 rounded-full bg-green-700 inline-flex"></div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-4xl flex items-center flex-wrap mx-auto">
+
             <!--Main Col-->
             <div id="profile" class="w-full lg:w-3/5 lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75">
             
