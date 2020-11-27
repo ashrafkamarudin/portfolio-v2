@@ -8,19 +8,23 @@
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "npx mix development -- --watch",
     "prod": "npx mix production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "keywords": [],
   "author": "Ashraf Kamarudin",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.0.2",
-    "postcss": "^8.1.10",
     "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "laravel-mix": "^6.0.0-beta.14",
+    "laravel-mix-purgecss": "^5.0.0",
+    "postcss": "^8.1.10",
     "postcss-import": "^12.0.1",
+    "postcss-loader": "^4.1.0",
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.29.0",
     "sass-loader": "^10.1.0",

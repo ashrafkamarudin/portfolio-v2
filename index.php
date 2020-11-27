@@ -129,7 +129,7 @@
 
                 <div class="p-4 md:p-12 text-center lg:text-left">
                     <!-- Image for mobile view-->
-                    <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('<?php echo get_bloginfo('template_directory'); ?>/assets/images/image.JPG);"></div>
+                    <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" loading="lazy" style="background-image: url('<?php echo get_bloginfo('template_directory'); ?>/assets/images/image.JPG);"></div>
                     
                     <h1 class="text-3xl font-bold pt-8 lg:pt-0">Ashraf Kamarudin</h1>
                     <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
@@ -161,7 +161,7 @@
             <!--Img Col-->
             <div class="w-full lg:w-2/5">
                 <!-- Big profile image for side bar (desktop) -->
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/image.JPG" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" style="height: 600px; width: 600px">
+                <img data-src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/image.JPG" loading="lazy" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" style="height: 600px; width: 600px">
                 <!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A -->
                 
             </div>
