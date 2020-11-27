@@ -1,9 +1,9 @@
-<div class="grid grid-cols-3 gap-4">
-    <div class="col-span-2 row-span-2 m-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div class="col-span-1 md:col-span-2 row-span-1 md:row-span-2 m-auto">
         <div class="sm:text-center lg:text-left">
-            <span class="block text-base text-gray-600 xl:inline italic">Hello, I am</span>
-            <h1 class="text-base tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-7xl mt-2"><span class="block xl:inline">Ashraf</span> <span class="block text-pink-500 xl:inline">Kamarudin</span></h1>
-            <p class="mt-3 text-8xl text-gray-500 sm:mt-5 sm:text-3xl sm:max-w-xl sm:mx-auto md:mt-5 md:text-3xl lg:mx-0 italic">Software Engineer @RunCloud</p>
+            <span class="block text-sm md:text-base text-gray-600 xl:inline italic">Hello, I am</span>
+            <h1 class="text-5xl sm:text-6xl md:text-7xl tracking-tight font-extrabold text-gray-900 mt-2"><span class="block xl:inline">Ashraf</span> <span class="block text-pink-500 xl:inline">Kamarudin</span></h1>
+            <p class="mt-3 text-sm text-gray-500 sm:mt-5 sm:text-3xl sm:max-w-xl sm:mx-auto md:mt-5 md:text-3xl lg:mx-0 italic">Software Engineer @RunCloud</p>
             <div class="mt-5">
                 <a class="mr-4" href="https://web.facebook.com/ashraf.kamarudin"><i class="fab fa-facebook fa-2x" style="color:#3273dc"></i></a> <a class="mr-4" href="https://www.instagram.com/ashee_kamarudin/" style="color: #e81c4f"><i class="fab fa-instagram fa-2x"></i></a> <a class="mr-4" href="https://twitter.com/ashee_k"><i class="fab fa-twitter fa-2x text-info" style="color: #209cee"></i></a> <a class="mr-4" href="https://www.linkedin.com/in/ashraf-kamarudin/"><i class="fab fa-linkedin fa-2x" style="color: #3273dc"></i></a> <a class="mr-4" href="https://github.com/ashrafkamarudin"><i class="fab fa-github fa-2x text-dark"></i></a> <a class="" href="https://stackoverflow.com/users/story/4918908" style="color: #ff5722 !important"><i class="fab fa-stack-overflow fa-2x"></i></a>
             </div>

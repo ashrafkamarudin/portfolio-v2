@@ -4,7 +4,7 @@
 ?>
 
 <?php if (!empty($categories)): foreach ($categories as $category): ?>
-    <badge class="badge-default text-sm font-medium mr-2">
+    <badge class="badge-default text-sm font-medium mr-2 mb-15">
         <?php echo $category->name; ?>
     </badge>
 <?php endforeach; endif;?>
