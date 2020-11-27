@@ -3,5 +3,6 @@
 <title><?php echo get_bloginfo( 'name' ); ?></title>
 <link href="<?php echo get_bloginfo('template_directory'); ?>/assets/css/app.css" rel="stylesheet" type="text/css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
 <?php wp_head();?>
