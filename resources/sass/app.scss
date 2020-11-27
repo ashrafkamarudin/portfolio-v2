@@ -16,12 +16,14 @@ a.prose {
 
 .blog-content {
     p {
-        padding-bottom: 1em;
+        @apply leading-relaxed;
+        @apply mb-4;
     }
 
     h1, h2, h3, h4, h5 {
         @apply text-black;
         @apply font-bold;
+        @apply my-5;
 
         // color: rgb(14, 116, 144);
     }
