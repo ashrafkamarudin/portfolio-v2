@@ -1,4 +1,5 @@
 let mix = require('laravel-mix');
+let tailwindcss = require('tailwindcss');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,9 +13,10 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'assets/js')
-    .sass('resources/sass/app.scss', 'assets/css').options({
+    .sass('resources/sass/app.scss', 'assets/css')
+    .options({
         postCss: [ 
-            require('tailwindcss'),
+            tailwindcss('tailwind.config.js'),
             require('autoprefixer'),
         ]
     })

@@ -31167,6 +31167,11 @@ video {
           animation: bounce 1s infinite;
 }
 
+.animate-bounce-slow {
+  -webkit-animation: bounce 3s infinite;
+          animation: bounce 3s infinite;
+}
+
 body {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -61818,6 +61823,11 @@ badge.badge-danger, badge.badge-danger, .badge.badge-danger, .badge.badge-danger
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .sm\:animate-bounce-slow {
+    -webkit-animation: bounce 3s infinite;
+            animation: bounce 3s infinite;
+  }
 }
 
 @media (min-width: 768px) {
@@ -92361,6 +92371,11 @@ badge.badge-danger, badge.badge-danger, .badge.badge-danger, .badge.badge-danger
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:animate-bounce-slow {
+    -webkit-animation: bounce 3s infinite;
+            animation: bounce 3s infinite;
   }
 }
 
@@ -122906,6 +122921,11 @@ badge.badge-danger, badge.badge-danger, .badge.badge-danger, .badge.badge-danger
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .lg\:animate-bounce-slow {
+    -webkit-animation: bounce 3s infinite;
+            animation: bounce 3s infinite;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -153450,6 +153470,11 @@ badge.badge-danger, badge.badge-danger, .badge.badge-danger, .badge.badge-danger
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .xl\:animate-bounce-slow {
+    -webkit-animation: bounce 3s infinite;
+            animation: bounce 3s infinite;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -183993,5 +184018,10 @@ badge.badge-danger, badge.badge-danger, .badge.badge-danger, .badge.badge-danger
   .\32xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-bounce-slow {
+    -webkit-animation: bounce 3s infinite;
+            animation: bounce 3s infinite;
   }
 }
