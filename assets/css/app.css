@@ -31174,7 +31174,7 @@ body {
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 
-.prose a {
+a.prose {
   color: #0e7490;
   font-weight: 500;
   box-shadow: white 0px -0.125em 0px 0px inset, rgba(165, 243, 252, 0.4) 0px -0.375em 0px 0px inset;

@@ -2,7 +2,7 @@
     <div class="w-full">
         <span class="sr-only">Date</span>
         <div class="group-hover:text-light-blue-200 leading-6 font-medium text-xs md:text-sm text-gray-600">
-            <span class="self-start"><?php echo get_the_date(); ?></span> <span class="text-gray-300 text-3xl font-light ml-1 mr-1"> / </span> by <a href="#"><?php the_author(); ?></a>
+            <span class="self-start"><?php echo get_the_date(); ?></span> <span class="text-gray-300 text-3xl font-light ml-1 mr-1"> / </span> By <a href="#" class="prose"><?php the_author(); ?></a>
         </div>
     </div>
     <div class="w-full">

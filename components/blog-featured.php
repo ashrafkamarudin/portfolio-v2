@@ -1,8 +1,8 @@
-<div class="col-span-2 row-span-2 group block rounded-lg p-4 p-10">
-    <div class="grid sm:block lg:grid xl:block grid-cols-2 grid-rows-2 items-center p-6 pt-2">
+<div class="col-span-1 md:col-span-2 row-span-1 md:row-span-2 group block rounded-lg md:p-4 md:p-10">
+    <div class="sm:block lg:grid xl:block items-center p-6 pt-2">
         <div>
             <span class="sr-only">Date</span>
-            <div class="group-hover:text-light-blue-200 leading-6 font-medium text-base text-gray-600">
+            <div class="group-hover:text-light-blue-200 leading-6 font-medium text-sm text-gray-600">
                 <span class="self-start"><?php the_date(); ?></span> <span class="text-gray-300 text-3xl font-light ml-1 mr-1"> / </span> by <a href="#"><?php the_author(); ?></a>
             </div>
         </div>
