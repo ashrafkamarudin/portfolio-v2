@@ -5,7 +5,7 @@
 </head>
 <body>
     <?php get_template_part( 'components/navbar' ); ?>
-    <main class="mx-auto max-w-7xl px-4 sm:mt-8 sm:px-6 md:mt-12 lg:mt-16 lg:px-8 xl:mt-20">
+    <main class="mx-auto max-w-7xl p-4 py-8 sm:mt-8 sm:px-6 md:mt-12 lg:mt-16 lg:px-8 xl:mt-20 bg-white">
         
     <?php
         if ( have_posts() ) : while ( have_posts() ) : the_post();

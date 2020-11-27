@@ -7,8 +7,66 @@ body {
     @apply bg-gray-100;
 }
 
-.blog-content p {
-    padding-bottom: 2em;
+.prose a {
+    color: rgb(14, 116, 144);
+    font-weight: 500;
+    box-shadow: rgb(255, 255, 255) 0px -0.125em 0px 0px inset, rgba(165, 243, 252, 0.4) 0px -0.375em 0px 0px inset;
+    text-decoration: none;
+}
+
+.blog-content {
+    p {
+        padding-bottom: 1em;
+    }
+
+    h1, h2, h3, h4, h5 {
+        @apply text-black;
+        @apply font-bold;
+
+        // color: rgb(14, 116, 144);
+    }
+
+    h1 {
+        @apply text-5xl;
+    }
+
+    h2 {
+        @apply text-4xl;
+    }
+
+    h3 {
+        @apply text-3xl;
+    }
+
+    h4 {
+        @apply text-2xl;
+    }
+
+    h5 {
+        @apply text-xl;
+    }
+
+    ul, ol {
+        padding: 1em;
+        margin-left: 1em;
+    }
+
+    ul {
+        @apply list-disc;
+        @apply list-inside;
+    }
+
+    ol {
+        @apply list-decimal;
+        @apply list-inside;
+    }
+
+    a {
+        color: rgb(14, 116, 144);
+        font-weight: 500;
+        box-shadow: rgb(255, 255, 255) 0px -0.125em 0px 0px inset, rgba(165, 243, 252, 0.4) 0px -0.375em 0px 0px inset;
+        text-decoration: none;
+    }
 }
 
 badge, .badge {
@@ -16,6 +74,8 @@ badge, .badge {
     @apply items-center;
     @apply px-2;
     @apply py-1;
+
+    text-transform: uppercase;
     
     &.badge-default {
         @apply bg-gray-100;

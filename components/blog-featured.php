@@ -19,9 +19,7 @@
             </p>
         </div>
         <div class="mt-6">
-            <badge class="badge-danger text-sm font-medium">
-                Blog Post
-            </badge>
+            <?php get_template_part( 'components/tags-category-badges' ); ?>
         </div>
         <div class="mt-6">
             <button class="bg-transparent text-indigo-900 font-semibold py-3 px-5 border border-indigo-300 transition duration-500 transform hover:-translate-y-0.5 rounded-full focus:outline-none">

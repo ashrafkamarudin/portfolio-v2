@@ -12,8 +12,6 @@
         </div>
     </div>
     <div class="mt-6">
-        <badge class="badge-default group-hover:text-yellow-600 group-hover:bg-yellow-100 blog-card text-sm font-medium">
-            Blog Post
-        </badge>
+        <?php get_template_part( 'components/tags-category-badges' ); ?>
     </div>
 </div>
