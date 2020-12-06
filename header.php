@@ -6,4 +6,7 @@
 <link type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="preload" as="style" onload="this.rel='stylesheet'"  defer/>
 <link href="https://unpkg.com/pattern.css" rel="preload" as="style" onload="this.rel='stylesheet'" defer>
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet"> 
+
 <?php wp_head();?>

@@ -3,7 +3,7 @@
         <div>
             <span class="sr-only">Date</span>
             <div class="group-hover:text-light-blue-200 leading-6 font-medium text-sm text-gray-600">
-                <span class="self-start"><?php the_date(); ?></span> <span class="text-gray-300 text-3xl font-light ml-1 mr-1"> / </span> by <a href="#"><?php the_author(); ?></a>
+                <span class="self-start"><?php the_date(); ?></span> <span class="text-gray-300 text-xl font-light ml-1 mr-1"> / </span> by <a href="#"><?php the_author(); ?></a>
             </div>
         </div>
         <div>

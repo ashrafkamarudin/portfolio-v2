@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     @apply text-sm;
     @apply bg-gray-100;
@@ -21,7 +25,7 @@ a.prose {
     }
 
     h1, h2, h3, h4, h5 {
-        @apply text-black;
+        @apply text-gray-900;
         @apply font-bold;
         @apply my-5;
 
@@ -29,23 +33,23 @@ a.prose {
     }
 
     h1 {
-        @apply text-5xl;
-    }
-
-    h2 {
         @apply text-4xl;
     }
 
-    h3 {
+    h2 {
         @apply text-3xl;
     }
 
-    h4 {
+    h3 {
         @apply text-2xl;
     }
 
-    h5 {
+    h4 {
         @apply text-xl;
+    }
+
+    h5 {
+        @apply text-lg;
     }
 
     ul, ol {
